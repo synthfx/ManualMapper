@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ManualMapper">
+      <UniqueIdentifier>{2b4e77c0-6f53-4a3f-8f05-3b5d820e69fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManualMapper\Main">
+      <UniqueIdentifier>{683ccf2a-7ded-4e69-a77a-f5133cbe3a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManualMapper\Console">
+      <UniqueIdentifier>{eda8ae52-cdc8-4f76-a64f-024f6a6c16f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManualMapper\Utils">
+      <UniqueIdentifier>{34edc766-4135-4484-ba7e-151c8d1864b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManualMapper\Mapper">
+      <UniqueIdentifier>{f3643426-f632-451c-9f67-d059ea6d0e6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ManualMapper\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\Console.cpp">
+      <Filter>ManualMapper\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\Mapper.cpp">
+      <Filter>ManualMapper\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>ManualMapper\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console\Console.hpp">
+      <Filter>ManualMapper\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\Mapper.hpp">
+      <Filter>ManualMapper\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.hpp">
+      <Filter>ManualMapper\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
